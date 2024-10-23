@@ -1,7 +1,7 @@
 import './index.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Home from './components/Home';
+import Home from './components/Landing';
 import Assignments from './components/Assignments';
 import Videos from './components/Videos';
 
