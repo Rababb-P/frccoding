@@ -1,5 +1,5 @@
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './components/Home';
 import Assignments from './components/Assignments';
@@ -8,7 +8,7 @@ import Videos from './components/Videos';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="min-h-screen bg-gray-100">
         <Navbar />
         <main className="container mx-auto mt-4 p-4">
@@ -19,6 +19,6 @@ export default function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    </Router>
   )
 }
